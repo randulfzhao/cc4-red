@@ -4,17 +4,12 @@ This folder is a curated CC4 training tree focused on the trainable red-agent im
 
 The default red-agent implementation is `scripts/train/train_red_ppo.py`. It trains the red team with IPPO or MAPPO over the same CC4 red action semantics used by the original rule-based attacker.
 
-Included:
-
 - `CybORG/`: CC4 simulator, agents, wrappers, actions, state, scenario generation, and rewards.
 - `Hierarchical-MARL-main/marl-1policy/`: trainable blue PPO pipeline and blue policy loader.
 - `scripts/train/train_red_ppo.py`: red PPO training entry with IPPO and MAPPO modes.
 - `on-policy/`: on-policy MAPPO/IPPO dependency used by the red scripts.
 - `scripts/launch/`: thin launchers for blue and red training.
 
-Not included:
-
-- HiComm, CACom, T2MAC, naive learned communication, communication ablations, papers, slides, analysis notebooks/scripts, and evaluation research harnesses.
 
 ## Red Agent Implementation
 
